@@ -1,0 +1,10 @@
+<h2>{{title}}</h2>
+  <div class="container" id="background"> 
+    <ul class="post-list" *ngFor="let child of post; let i = index">
+      <li>
+        <p class="title">Title: <span class="post-title"> {{child.data.title}}</span></p>
+        <p class="post-img"><img src="{{child.data.thumbnail}}"></p>
+        <p class="post-link"><a href="https://www.reddit.com/{{child.data.permalink}}">View full post on Reddit</a></p>
+      </li>
+    </ul>
+  </div>

@@ -1,0 +1,30 @@
+#background{
+    background-image: url("/assets/heartsanddots3.jpg");
+    background-size: 600px 300px;
+    
+}
+.title{
+    color: rgb(82, 79, 79);
+    font-weight: bold;
+    font-size: 20px;
+}
+.title, .post-link{
+    background-color: white;
+    width:200px;
+}
+ul{
+    list-style: none;
+}
+
+.container{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: center;
+}
+
+h2{
+    text-align: center;
+}
